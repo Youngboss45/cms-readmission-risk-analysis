@@ -1,0 +1,14 @@
+feature,importance,importance_pct,rank,feature_label
+length_of_stay_days,0.20690471928991896,20.69,1,Length of stay
+bmi,0.14847620474180548,14.85,2,BMI
+comorbidity_index,0.1477755530981423,14.78,3,Comorbidity index
+social_risk_score,0.12274762535780041,12.27,4,Social risk score
+age,0.10931970650209266,10.93,5,Patient age
+prior_admissions_12mo,0.06942205830309857,6.94,6,Prior admissions (12mo)
+num_medications,0.05701819473551985,5.7,7,Medication count
+primary_diagnosis_enc,0.05116489663579566,5.12,8,Primary diagnosis
+payer_enc,0.029251403710321835,2.93,9,Payer type
+discharge_disposition_enc,0.028697981019873732,2.87,10,Discharge disposition
+ed_visits_prior_6mo,0.01961864112435548,1.96,11,ED visits (6mo)
+gender_enc,0.008251053930117826,0.83,12,Gender
+age_group_enc,0.0013519615511572239,0.14,13,Age group

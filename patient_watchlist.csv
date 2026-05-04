@@ -1,0 +1,501 @@
+patient_id,age,gender,primary_diagnosis,hospital,payer,discharge_disposition,length_of_stay_days,prior_admissions_12mo,comorbidity_index,num_medications,composite_risk_flags,model_risk_score,model_risk_tier,total_cost_usd
+PT000830,64,Male,Stroke,Community Hospital,Medicare,Home Health,18.0,5,2.8,7,2,98.2,Critical,77662
+PT001960,71,Male,Stroke,Community Hospital,Medicare,Home,10.4,5,2.3,14,3,98.1,Critical,51330
+PT004592,70,Female,Stroke,Mercy Medical Center,Medicare,Home Health,17.3,0,3.4,7,1,97.9,Critical,67699
+PT001494,70,Female,Heart Failure,St. Mary'S Hospital,Medicare,Home,9.5,5,6.1,9,3,97.8,Critical,50894
+PT000088,72,Female,Sepsis,Community Hospital,Medicare,Home Health,16.5,3,2.1,8,2,97.5,Critical,59298
+PT001053,74,Female,Copd,Community Hospital,Medicaid,Home Health,26.1,3,4.5,7,2,97.5,Critical,109210
+PT000125,76,Male,Renal Failure,Regional Medical Center,Medicare,Home,13.5,1,2.7,7,2,97.3,Critical,50974
+PT001522,76,Male,Stroke,Mercy Medical Center,Private Insurance,Home Health,16.8,0,3.9,14,3,97.0,Critical,51954
+PT002027,93,Male,Heart Failure,Community Hospital,Self-Pay,Rehab Facility,5.5,0,6.3,5,2,97.0,Critical,33986
+PT002145,64,Male,Heart Failure,General Medical Center,Private Insurance,Home,13.3,5,6.7,3,3,97.0,Critical,45651
+PT000502,94,Female,Renal Failure,Community Hospital,Medicare,Home,10.0,5,7.5,11,5,96.9,Critical,33851
+PT000543,75,Male,Pneumonia,Community Hospital,Private Insurance,Home Health,12.8,3,3.3,10,4,96.8,Critical,30138
+PT001166,95,Female,Sepsis,Community Hospital,Medicare,Rehab Facility,19.5,1,3.3,14,3,96.8,Critical,79673
+PT004545,73,Female,Renal Failure,Mercy Medical Center,Medicare,Home,18.9,1,7.3,7,2,96.8,Critical,66319
+PT000671,85,Male,Pneumonia,Community Hospital,Private Insurance,Home,16.6,0,4.9,12,3,96.7,Critical,54512
+PT002803,72,Male,Acute Mi,St. Mary'S Hospital,Self-Pay,Home Health,7.8,4,5.4,10,3,96.7,Critical,35437
+PT000453,54,Male,Hip/Knee Replacement,Mercy Medical Center,Medicaid,Home Health,19.5,2,3.2,13,2,96.6,Critical,70614
+PT000049,72,Male,Pneumonia,Community Hospital,Medicare,Home Health,16.9,3,3.5,9,2,96.4,Critical,64792
+PT004217,93,Female,Renal Failure,Community Hospital,Self-Pay,Skilled Nursing Facility,14.4,2,1.4,9,2,96.4,Critical,47333
+PT004427,72,Female,Sepsis,Community Hospital,Private Insurance,Home Health,17.0,0,2.1,7,1,96.4,Critical,57611
+PT001658,86,Male,Pneumonia,Community Hospital,Medicare,Skilled Nursing Facility,16.1,0,7.1,12,4,96.3,Critical,47864
+PT002416,71,Male,Stroke,University Health System,Private Insurance,Home Health,11.1,3,4.4,8,2,96.3,Critical,49078
+PT003905,90,Female,Hip/Knee Replacement,Regional Medical Center,Medicare,Long-Term Care,11.9,4,2.8,6,3,96.3,Critical,49340
+PT004079,62,Female,Pneumonia,St. Mary'S Hospital,Medicaid,Rehab Facility,16.1,2,1.7,6,1,96.2,Critical,75210
+PT000332,55,Female,Pneumonia,Mercy Medical Center,Self-Pay,Home,10.4,2,6.3,7,2,96.1,Critical,49059
+PT003636,71,Female,Hip/Knee Replacement,Mercy Medical Center,Medicaid,Long-Term Care,16.9,0,3.4,8,1,96.1,Critical,68712
+PT003077,78,Female,Pneumonia,St. Mary'S Hospital,Medicare,Home,20.2,3,2.6,10,4,96.0,Critical,83907
+PT001832,71,Female,Hip/Knee Replacement,Regional Medical Center,Private Insurance,Rehab Facility,19.4,1,3.1,9,1,95.9,Critical,63613
+PT000954,88,Female,Heart Failure,St. Mary'S Hospital,Self-Pay,Skilled Nursing Facility,10.1,2,3.9,7,2,95.8,Critical,45759
+PT003562,57,Male,Heart Failure,General Medical Center,Private Insurance,Home,17.0,3,2.6,10,3,95.8,Critical,79723
+PT004701,54,Male,Sepsis,Regional Medical Center,Medicare,Home,13.0,3,1.6,10,3,95.8,Critical,55032
+PT000889,76,Female,Stroke,General Medical Center,Medicare,Home,11.8,3,3.2,5,3,95.7,Critical,44958
+PT003397,75,Female,Diabetes,Regional Medical Center,Medicare,Home,16.5,3,1.9,6,3,95.6,Critical,66510
+PT003639,66,Male,Hip/Knee Replacement,Community Hospital,Private Insurance,Home,18.0,2,1.6,16,2,95.6,Critical,71582
+PT000699,80,Male,Hip/Knee Replacement,University Health System,Private Insurance,Skilled Nursing Facility,19.0,2,1.2,8,2,95.5,Critical,74417
+PT001685,51,Male,Heart Failure,St. Mary'S Hospital,Medicare,Skilled Nursing Facility,9.3,5,5.9,12,4,95.5,Critical,46807
+PT002967,72,Female,Hip/Knee Replacement,University Health System,Private Insurance,Home,17.0,3,2.9,13,3,95.5,Critical,69791
+PT000579,47,Male,Heart Failure,Mercy Medical Center,Private Insurance,Skilled Nursing Facility,16.1,5,1.1,11,3,95.4,Critical,70340
+PT003985,71,Female,Hip/Knee Replacement,University Health System,Medicare,Skilled Nursing Facility,6.1,5,9.0,5,2,95.4,Critical,30861
+PT004829,80,Female,Hip/Knee Replacement,St. Mary'S Hospital,Private Insurance,Home,13.0,2,3.0,4,2,95.4,Critical,52422
+PT001310,74,Female,Stroke,St. Mary'S Hospital,Medicare,Home Health,8.5,6,2.1,6,2,95.3,Critical,47818
+PT000230,77,Female,Acute Mi,St. Mary'S Hospital,Self-Pay,Home Health,6.8,1,5.5,9,2,95.2,Critical,38222
+PT002240,77,Male,Copd,University Health System,Medicare,Skilled Nursing Facility,5.1,5,7.1,8,3,95.2,Critical,32692
+PT001230,95,Female,Heart Failure,Community Hospital,Medicare,Home Health,10.0,4,3.1,6,3,95.0,Critical,47834
+PT001987,78,Male,Copd,St. Mary'S Hospital,Medicare,Rehab Facility,9.8,6,2.3,10,4,95.0,Critical,50846
+PT003936,73,Female,Heart Failure,General Medical Center,Medicare,Rehab Facility,10.3,2,2.8,6,1,95.0,Critical,21705
+PT001758,81,Male,Pneumonia,Mercy Medical Center,Private Insurance,Home,10.1,2,5.9,9,3,94.9,Critical,39331
+PT001784,78,Female,Renal Failure,General Medical Center,Medicare,Home Health,16.0,3,2.9,7,3,94.9,Critical,53750
+PT001820,54,Female,Hip/Knee Replacement,Mercy Medical Center,Medicare,Home Health,16.1,2,1.5,12,2,94.9,Critical,42911
+PT001833,81,Female,Stroke,University Health System,Self-Pay,Home,8.9,4,2.6,14,4,94.9,Critical,41783
+PT004159,58,Male,Acute Mi,Regional Medical Center,Medicare,Home,9.9,2,6.2,18,3,94.9,Critical,28270
+PT001072,74,Female,Stroke,Community Hospital,Medicare,Home,5.8,5,2.8,9,1,94.8,Critical,43161
+PT002725,95,Female,Renal Failure,St. Mary'S Hospital,Private Insurance,Rehab Facility,6.8,2,2.6,9,1,94.8,Critical,36975
+PT004179,93,Female,Acute Mi,Regional Medical Center,Self-Pay,Home,5.4,4,4.9,4,2,94.8,Critical,30484
+PT004683,88,Male,Heart Failure,Regional Medical Center,Medicare,Home Health,8.5,2,2.2,6,2,94.8,Critical,41796
+PT000870,95,Female,Cabg,Mercy Medical Center,Medicaid,Home,10.1,0,5.9,3,3,94.7,Critical,39120
+PT001931,50,Female,Heart Failure,St. Mary'S Hospital,Medicare,Home,18.1,2,7.1,4,2,94.7,Critical,68892
+PT002021,68,Male,Diabetes,University Health System,Medicaid,Long-Term Care,16.7,1,3.2,12,2,94.7,Critical,74464
+PT004376,77,Male,Renal Failure,Mercy Medical Center,Medicare,Home,7.0,3,6.0,3,3,94.7,Critical,39737
+PT004696,65,Male,Pneumonia,Regional Medical Center,Private Insurance,Home,19.4,1,2.8,9,1,94.7,Critical,77070
+PT004887,57,Female,Stroke,Regional Medical Center,Medicare,Home,8.3,4,6.5,5,3,94.7,Critical,34781
+PT000504,75,Male,Sepsis,Regional Medical Center,Medicaid,Home,9.8,4,2.5,7,3,94.6,Critical,48686
+PT000737,71,Male,Sepsis,Mercy Medical Center,Private Insurance,Home Health,16.9,1,1.6,9,1,94.6,Critical,69975
+PT001428,52,Male,Copd,St. Mary'S Hospital,Medicare,Home Health,10.4,5,2.8,8,2,94.6,Critical,51009
+PT003308,73,Male,Heart Failure,St. Mary'S Hospital,Medicare,Home,10.4,4,4.4,8,2,94.6,Critical,34850
+PT004375,81,Male,Cabg,Mercy Medical Center,Private Insurance,Home,11.2,3,3.7,5,3,94.6,Critical,55448
+PT003882,70,Female,Cabg,General Medical Center,Medicare,Skilled Nursing Facility,17.7,2,1.0,11,2,94.5,Critical,80641
+PT004539,64,Male,Cabg,Regional Medical Center,Medicare,Home,11.0,2,4.7,12,2,94.5,Critical,40471
+PT004741,75,Male,Sepsis,Regional Medical Center,Self-Pay,Skilled Nursing Facility,13.7,1,4.0,9,2,94.5,Critical,55094
+PT001581,70,Female,Renal Failure,St. Mary'S Hospital,Medicare,Rehab Facility,12.1,3,4.0,8,2,94.3,Critical,42185
+PT002304,71,Female,Heart Failure,University Health System,Private Insurance,Home Health,10.0,3,3.2,7,2,94.3,Critical,50831
+PT004130,91,Male,Renal Failure,University Health System,Medicare,Home,7.6,3,7.1,2,3,94.3,Critical,32781
+PT000333,69,Male,Renal Failure,Mercy Medical Center,Medicaid,Home,12.2,3,2.3,8,2,94.2,Critical,57273
+PT000441,73,Male,Pneumonia,Regional Medical Center,Medicare,Home,15.4,4,3.2,4,2,94.2,Critical,52132
+PT000021,88,Female,Sepsis,Community Hospital,Self-Pay,Home,17.3,1,2.8,3,2,94.1,Critical,66353
+PT001113,80,Male,Renal Failure,University Health System,Private Insurance,Home Health,5.7,3,2.1,7,2,94.1,Critical,38795
+PT002260,70,Male,Hip/Knee Replacement,Mercy Medical Center,Self-Pay,Home,10.6,2,7.1,9,2,94.0,Critical,49365
+PT002769,60,Female,Stroke,General Medical Center,Medicare,Home,11.3,4,2.0,8,2,93.9,Critical,52846
+PT000328,79,Male,Diabetes,General Medical Center,Medicare,Rehab Facility,14.2,3,5.7,6,4,93.8,Critical,65448
+PT000877,60,Male,Sepsis,General Medical Center,Private Insurance,Home,15.7,5,1.1,7,2,93.8,Critical,55825
+PT001755,75,Female,Hip/Knee Replacement,General Medical Center,Medicare,Home,6.6,3,2.9,6,2,93.8,Critical,33463
+PT001879,44,Male,Renal Failure,General Medical Center,Medicare,Long-Term Care,11.2,3,7.3,4,3,93.8,Critical,47369
+PT004843,77,Male,Renal Failure,Community Hospital,Medicare,Skilled Nursing Facility,16.7,1,1.1,3,2,93.8,Critical,62686
+PT001218,71,Male,Hip/Knee Replacement,University Health System,Self-Pay,Home,7.3,3,5.1,11,3,93.7,Critical,37077
+PT001794,77,Female,Copd,General Medical Center,Medicaid,Home,11.2,3,3.1,7,3,93.7,Critical,29307
+PT002202,65,Male,Renal Failure,Mercy Medical Center,Self-Pay,Home,12.1,3,1.9,5,2,93.7,Critical,54686
+PT003041,76,Female,Stroke,St. Mary'S Hospital,Private Insurance,Home,9.4,1,5.4,5,3,93.7,Critical,47858
+PT003728,82,Male,Heart Failure,Regional Medical Center,Medicaid,Long-Term Care,13.2,3,1.6,13,4,93.7,Critical,55060
+PT001639,95,Female,Stroke,Mercy Medical Center,Self-Pay,Home,9.7,0,2.1,13,3,93.6,Critical,50911
+PT000755,54,Female,Heart Failure,Regional Medical Center,Medicare,Rehab Facility,20.0,2,2.6,8,1,93.5,Critical,83693
+PT001714,79,Male,Hip/Knee Replacement,Regional Medical Center,Medicare,Skilled Nursing Facility,19.0,0,1.4,4,2,93.5,Critical,82271
+PT001919,65,Male,Acute Mi,Mercy Medical Center,Medicare,Long-Term Care,16.1,3,0.8,7,2,93.5,Critical,59156
+PT003019,61,Female,Stroke,General Medical Center,Private Insurance,Home,10.2,1,6.6,5,2,93.5,Critical,48182
+PT003670,72,Male,Renal Failure,General Medical Center,Private Insurance,Skilled Nursing Facility,12.9,0,2.0,7,1,93.5,Critical,59419
+PT001041,91,Female,Copd,St. Mary'S Hospital,Medicaid,Long-Term Care,10.0,2,10.0,11,4,93.4,Critical,41350
+PT001107,76,Female,Stroke,Community Hospital,Medicare,Home Health,2.3,1,5.8,4,2,93.4,Critical,27195
+PT001630,79,Male,Pneumonia,St. Mary'S Hospital,Self-Pay,Home,9.4,3,2.3,12,4,93.4,Critical,42072
+PT002011,45,Female,Pneumonia,Community Hospital,Medicare,Home,12.6,3,6.3,5,3,93.4,Critical,44676
+PT002353,77,Female,Cabg,Mercy Medical Center,Medicare,Ama,20.0,4,2.9,12,4,93.4,Critical,83517
+PT003338,65,Male,Stroke,General Medical Center,Medicare,Home Health,15.9,2,4.0,9,1,93.4,Critical,58644
+PT004624,78,Male,Heart Failure,University Health System,Medicare,Home,9.2,2,6.4,5,3,93.4,Critical,55683
+PT004933,89,Female,Heart Failure,Regional Medical Center,Medicare,Skilled Nursing Facility,7.7,4,2.6,11,3,93.4,Critical,48922
+PT004998,95,Female,Copd,Mercy Medical Center,Medicare,Skilled Nursing Facility,5.7,3,4.5,8,2,93.4,Critical,35790
+PT001277,95,Female,Heart Failure,Regional Medical Center,Medicare,Home,6.9,3,1.9,6,2,93.3,Critical,48646
+PT001752,77,Female,Pneumonia,St. Mary'S Hospital,Self-Pay,Home,21.7,3,1.7,7,3,93.3,Critical,73296
+PT002837,94,Female,Cabg,Mercy Medical Center,Medicaid,Skilled Nursing Facility,1.8,4,5.5,6,3,93.3,Critical,27030
+PT003962,94,Female,Diabetes,Regional Medical Center,Medicare,Home Health,5.7,2,5.4,15,3,93.3,Critical,36120
+PT000247,61,Female,Stroke,University Health System,Self-Pay,Home Health,6.0,6,3.9,14,2,93.2,Critical,31878
+PT000786,83,Female,Diabetes,St. Mary'S Hospital,Self-Pay,Home,6.7,0,5.9,4,2,93.2,Critical,41686
+PT001375,88,Male,Stroke,Mercy Medical Center,Medicare,Home,10.6,2,1.6,6,2,93.2,Critical,47803
+PT001682,67,Female,Pneumonia,Community Hospital,Private Insurance,Home,16.4,1,3.2,9,1,93.2,Critical,52705
+PT002802,95,Female,Stroke,St. Mary'S Hospital,Medicare,Home Health,2.5,3,1.5,13,3,93.2,Critical,23969
+PT003932,89,Female,Renal Failure,Community Hospital,Self-Pay,Skilled Nursing Facility,9.3,0,0.9,6,2,93.2,Critical,33458
+PT004507,77,Male,Pneumonia,Community Hospital,Medicare,Skilled Nursing Facility,14.7,1,3.8,5,2,93.2,Critical,76373
+PT004864,49,Female,Stroke,University Health System,Medicaid,Home Health,12.9,3,5.4,10,4,93.2,Critical,49643
+PT001036,90,Female,Pneumonia,Community Hospital,Medicare,Skilled Nursing Facility,13.0,1,2.5,6,2,93.1,Critical,56829
+PT001769,69,Male,Sepsis,Community Hospital,Medicaid,Home,16.1,1,3.2,6,1,93.1,Critical,75284
+PT001882,90,Female,Diabetes,St. Mary'S Hospital,Medicare,Home Health,5.6,2,6.0,5,2,93.1,Critical,41411
+PT004078,39,Male,Pneumonia,General Medical Center,Self-Pay,Skilled Nursing Facility,10.6,2,4.6,7,1,93.1,Critical,40997
+PT004462,93,Male,Acute Mi,General Medical Center,Private Insurance,Skilled Nursing Facility,14.5,0,1.8,9,2,93.1,Critical,68732
+PT004992,77,Female,Heart Failure,Regional Medical Center,Medicare,Home Health,15.7,3,4.3,7,3,93.1,Critical,66889
+PT001100,72,Male,Cabg,University Health System,Self-Pay,Home,10.3,1,4.5,7,1,93.0,Critical,49496
+PT002193,95,Female,Sepsis,Community Hospital,Medicare,Home Health,11.9,2,2.6,5,2,93.0,Critical,51076
+PT003007,74,Male,Hip/Knee Replacement,Mercy Medical Center,Medicaid,Home Health,19.0,0,0.5,13,2,93.0,Critical,74268
+PT004858,81,Female,Acute Mi,Mercy Medical Center,Medicare,Home Health,9.3,2,5.5,5,3,93.0,Critical,42294
+PT001550,85,Male,Cabg,Mercy Medical Center,Private Insurance,Home,5.1,5,4.2,10,3,92.9,Critical,31601
+PT004900,76,Female,Diabetes,Community Hospital,Medicaid,Long-Term Care,9.4,2,5.5,10,4,92.9,Critical,26097
+PT001275,84,Female,Cabg,University Health System,Medicaid,Home,10.1,2,6.5,10,4,92.8,Critical,57789
+PT003183,52,Female,Acute Mi,Regional Medical Center,Private Insurance,Home,9.0,5,3.6,7,2,92.8,Critical,49229
+PT001279,70,Female,Stroke,General Medical Center,Private Insurance,Skilled Nursing Facility,11.6,3,2.7,7,2,92.7,Critical,39741
+PT001847,85,Male,Diabetes,Community Hospital,Self-Pay,Skilled Nursing Facility,18.6,0,1.5,9,2,92.7,Critical,83698
+PT001929,83,Male,Sepsis,St. Mary'S Hospital,Private Insurance,Rehab Facility,7.6,1,7.2,9,2,92.7,Critical,38755
+PT002684,78,Female,Copd,Community Hospital,Medicare,Home,15.1,3,1.3,10,4,92.7,Critical,64445
+PT004932,37,Male,Renal Failure,Community Hospital,Medicare,Skilled Nursing Facility,19.0,4,3.3,10,3,92.7,Critical,75584
+PT000221,95,Female,Cabg,Community Hospital,Medicare,Home Health,11.2,4,0.6,8,3,92.6,Critical,46371
+PT001528,89,Male,Diabetes,Mercy Medical Center,Medicaid,Home,10.3,2,2.5,9,2,92.6,Critical,48091
+PT002128,83,Male,Cabg,Community Hospital,Self-Pay,Home,8.1,0,5.4,9,3,92.6,Critical,39404
+PT002797,76,Female,Hip/Knee Replacement,Mercy Medical Center,Medicare,Skilled Nursing Facility,9.5,1,5.8,4,3,92.6,Critical,50860
+PT004038,64,Female,Cabg,University Health System,Medicare,Home,10.3,3,4.3,8,2,92.6,Critical,47152
+PT000155,72,Female,Renal Failure,Community Hospital,Self-Pay,Home,2.2,3,4.2,9,1,92.5,Critical,23905
+PT000606,94,Female,Diabetes,St. Mary'S Hospital,Medicaid,Home Health,5.6,5,3.1,8,2,92.4,Critical,41522
+PT001583,53,Male,Acute Mi,Mercy Medical Center,Medicaid,Skilled Nursing Facility,20.4,1,4.5,7,1,92.4,Critical,74077
+PT002201,93,Female,Sepsis,Community Hospital,Medicare,Rehab Facility,12.9,1,6.0,9,3,92.4,Critical,54366
+PT000583,76,Female,Renal Failure,Community Hospital,Self-Pay,Home Health,11.3,2,2.4,11,3,92.3,Critical,55855
+PT001175,57,Female,Renal Failure,Community Hospital,Private Insurance,Skilled Nursing Facility,11.0,4,4.0,5,2,92.3,Critical,56448
+PT002522,95,Male,Renal Failure,Community Hospital,Medicare,Rehab Facility,4.7,1,5.1,12,3,92.3,Critical,13960
+PT002761,76,Male,Diabetes,Mercy Medical Center,Private Insurance,Home,9.5,2,2.6,9,2,92.3,Critical,48349
+PT003554,95,Male,Hip/Knee Replacement,Regional Medical Center,Medicaid,Home,7.0,3,2.3,6,2,92.3,Critical,28666
+PT004583,67,Female,Hip/Knee Replacement,Community Hospital,Medicare,Ama,16.9,4,0.7,7,2,92.3,Critical,64853
+PT004777,67,Female,Stroke,General Medical Center,Medicare,Home,13.0,1,4.5,13,2,92.3,Critical,44156
+PT001147,52,Female,Renal Failure,General Medical Center,Medicare,Long-Term Care,14.5,7,3.2,9,2,92.2,Critical,48515
+PT001240,90,Male,Copd,Community Hospital,Medicare,Home,8.2,4,3.5,10,4,92.2,Critical,43450
+PT001393,95,Female,Copd,General Medical Center,Private Insurance,Home,2.0,1,1.2,17,2,92.2,Critical,29394
+PT001696,95,Male,Heart Failure,Regional Medical Center,Medicare,Home,9.5,2,0.3,14,3,92.2,Critical,56993
+PT002047,68,Male,Pneumonia,Mercy Medical Center,Self-Pay,Home Health,13.3,3,1.3,7,2,92.2,Critical,51743
+PT003859,57,Female,Stroke,General Medical Center,Medicare,Home,18.4,1,2.6,8,1,92.2,Critical,67899
+PT004002,67,Male,Acute Mi,Mercy Medical Center,Self-Pay,Home,17.1,1,0.8,7,1,92.2,Critical,33219
+PT004519,72,Male,Sepsis,Mercy Medical Center,Self-Pay,Long-Term Care,7.8,1,5.1,13,2,92.2,Critical,46403
+PT000964,77,Male,Copd,General Medical Center,Private Insurance,Skilled Nursing Facility,5.4,5,4.4,4,2,92.1,Critical,31288
+PT001029,76,Male,Stroke,General Medical Center,Medicare,Home Health,14.0,2,0.3,11,3,92.1,Critical,65233
+PT001453,71,Female,Stroke,Community Hospital,Medicare,Home,9.9,1,4.0,6,1,92.1,Critical,47178
+PT002277,77,Male,Sepsis,Mercy Medical Center,Medicare,Home,11.3,2,2.9,5,2,92.1,Critical,64971
+PT002306,95,Male,Renal Failure,University Health System,Medicare,Long-Term Care,10.8,4,1.0,13,4,92.1,Critical,43529
+PT002617,57,Female,Sepsis,Mercy Medical Center,Medicare,Home,9.2,5,4.9,9,2,92.1,Critical,51535
+PT003682,62,Male,Copd,Regional Medical Center,Medicare,Long-Term Care,15.5,2,4.3,5,1,92.1,Critical,65311
+PT000307,85,Male,Heart Failure,University Health System,Medicare,Home,12.9,1,5.6,7,3,92.0,Critical,29657
+PT001251,72,Female,Copd,Mercy Medical Center,Medicare,Ama,17.0,0,2.2,7,1,92.0,Critical,63277
+PT001788,57,Male,Cabg,Regional Medical Center,Medicare,Home,8.6,1,4.1,16,2,92.0,Critical,38765
+PT001039,71,Male,Cabg,General Medical Center,Medicare,Home,14.4,2,2.4,8,1,91.9,Critical,56122
+PT001741,66,Female,Copd,University Health System,Private Insurance,Home,9.9,3,4.3,5,2,91.9,Critical,49054
+PT002046,83,Male,Pneumonia,University Health System,Medicaid,Home Health,8.0,3,5.4,8,4,91.9,Critical,40682
+PT002186,89,Male,Cabg,General Medical Center,Private Insurance,Long-Term Care,9.3,2,7.9,8,3,91.9,Critical,38387
+PT002916,93,Male,Diabetes,St. Mary'S Hospital,Medicaid,Home,3.6,3,4.8,5,2,91.9,Critical,32273
+PT003692,79,Female,Sepsis,Community Hospital,Medicare,Home,13.4,2,3.8,8,2,91.9,Critical,50663
+PT001568,75,Female,Cabg,General Medical Center,Medicare,Home,11.8,2,7.4,5,3,91.8,Critical,53959
+PT004106,71,Female,Renal Failure,St. Mary'S Hospital,Medicaid,Home,6.5,6,2.5,9,1,91.8,Critical,39123
+PT004400,81,Female,Copd,Mercy Medical Center,Medicare,Rehab Facility,10.2,3,2.0,15,4,91.8,Critical,41577
+PT000234,58,Female,Stroke,Regional Medical Center,Private Insurance,Home,10.2,4,1.0,5,2,91.7,Critical,30066
+PT000679,81,Male,Renal Failure,Mercy Medical Center,Medicare,Home,5.7,1,7.5,1,2,91.7,Critical,27735
+PT001925,95,Male,Pneumonia,University Health System,Private Insurance,Home Health,7.7,2,3.6,7,1,91.7,Critical,40506
+PT002033,74,Male,Copd,University Health System,Self-Pay,Home Health,9.0,4,2.1,6,2,91.7,Critical,30650
+PT003052,58,Female,Stroke,Community Hospital,Medicare,Skilled Nursing Facility,10.0,3,3.1,12,3,91.7,Critical,48199
+PT003981,87,Female,Hip/Knee Replacement,Community Hospital,Private Insurance,Home Health,10.6,2,2.3,8,2,91.7,Critical,65560
+PT004561,53,Female,Sepsis,St. Mary'S Hospital,Private Insurance,Home,4.8,4,5.1,6,2,91.7,Critical,37627
+PT000597,64,Female,Hip/Knee Replacement,St. Mary'S Hospital,Private Insurance,Home,13.1,7,0.3,7,2,91.6,Critical,61866
+PT001549,78,Female,Pneumonia,General Medical Center,Medicaid,Rehab Facility,7.8,3,6.0,6,3,91.6,Critical,33253
+PT002070,80,Male,Pneumonia,Mercy Medical Center,Medicare,Home Health,9.0,5,2.4,11,4,91.6,Critical,45762
+PT003923,63,Male,Hip/Knee Replacement,Regional Medical Center,Private Insurance,Home Health,10.1,3,3.5,15,3,91.6,Critical,32508
+PT004524,95,Male,Sepsis,University Health System,Medicare,Ama,5.8,3,5.5,11,4,91.6,Critical,37517
+PT004788,58,Female,Renal Failure,University Health System,Medicare,Home,11.8,3,10.0,7,3,91.6,Critical,59219
+PT001924,71,Female,Copd,Regional Medical Center,Private Insurance,Long-Term Care,8.5,4,4.7,7,2,91.5,Critical,42695
+PT003860,65,Male,Copd,Community Hospital,Medicare,Rehab Facility,13.1,3,2.7,9,2,91.5,Critical,48261
+PT004779,52,Female,Sepsis,Regional Medical Center,Medicaid,Home,13.5,4,4.4,9,2,91.5,Critical,56257
+PT001101,81,Female,Hip/Knee Replacement,Regional Medical Center,Medicare,Home Health,6.8,4,2.5,14,3,91.4,Critical,37215
+PT003303,71,Male,Cabg,Mercy Medical Center,Private Insurance,Skilled Nursing Facility,7.9,6,3.5,8,1,91.4,Critical,43735
+PT003521,75,Male,Diabetes,St. Mary'S Hospital,Medicare,Home Health,10.7,2,2.3,10,3,91.4,Critical,47247
+PT003801,48,Male,Pneumonia,University Health System,Self-Pay,Home Health,15.0,3,3.6,11,3,91.4,Critical,71014
+PT004204,54,Male,Sepsis,University Health System,Private Insurance,Home Health,12.9,3,3.8,7,2,91.4,Critical,55924
+PT000127,54,Male,Copd,University Health System,Medicaid,Home Health,21.2,2,1.5,9,1,91.3,Critical,83165
+PT000784,76,Female,Copd,General Medical Center,Private Insurance,Home,7.5,5,1.2,5,2,91.3,Critical,42101
+PT002593,67,Female,Hip/Knee Replacement,Mercy Medical Center,Medicare,Home,5.7,3,1.9,11,2,91.3,Critical,39913
+PT003348,90,Female,Heart Failure,Regional Medical Center,Private Insurance,Home,11.8,2,4.5,10,3,91.3,Critical,55529
+PT004511,51,Male,Acute Mi,Mercy Medical Center,Medicare,Rehab Facility,17.6,1,3.5,11,2,91.3,Critical,78102
+PT001708,94,Female,Renal Failure,University Health System,Medicare,Home,6.5,5,1.4,8,2,91.2,Critical,35407
+PT002208,72,Male,Hip/Knee Replacement,Community Hospital,Medicare,Long-Term Care,10.3,2,2.4,8,1,91.2,Critical,43303
+PT003193,95,Male,Cabg,Mercy Medical Center,Medicare,Home,4.9,3,2.0,5,2,91.2,Critical,28676
+PT003660,95,Female,Cabg,Mercy Medical Center,Medicare,Rehab Facility,9.4,1,2.6,14,3,91.2,Critical,34553
+PT003778,50,Female,Sepsis,University Health System,Private Insurance,Rehab Facility,10.6,3,4.7,7,2,91.2,Critical,45018
+PT004332,51,Male,Sepsis,University Health System,Medicare,Home,15.8,2,2.4,5,1,91.2,Critical,62460
+PT000434,78,Male,Heart Failure,Regional Medical Center,Medicaid,Home,8.2,2,4.3,15,3,91.1,Critical,37859
+PT000564,63,Male,Renal Failure,General Medical Center,Medicare,Rehab Facility,10.0,4,4.6,9,2,91.1,Critical,50205
+PT000793,71,Male,Cabg,St. Mary'S Hospital,Self-Pay,Skilled Nursing Facility,11.0,2,1.5,8,1,91.1,Critical,58326
+PT001542,92,Female,Sepsis,Mercy Medical Center,Private Insurance,Home Health,4.7,3,2.5,11,3,91.1,Critical,31665
+PT003115,73,Female,Cabg,St. Mary'S Hospital,Medicare,Home,14.6,3,2.2,4,2,91.1,Critical,39640
+PT000587,61,Male,Stroke,General Medical Center,Medicare,Home Health,19.0,0,2.5,7,1,91.0,Critical,68252
+PT002654,82,Female,Renal Failure,Community Hospital,Private Insurance,Home,9.0,7,1.9,6,3,91.0,Critical,39687
+PT003090,70,Male,Sepsis,General Medical Center,Medicare,Rehab Facility,10.4,1,5.6,8,2,91.0,Critical,44524
+PT003593,95,Female,Pneumonia,Mercy Medical Center,Medicare,Home,9.8,2,3.3,9,2,91.0,Critical,46095
+PT004525,84,Female,Stroke,Community Hospital,Medicare,Home Health,9.2,1,6.8,10,4,91.0,Critical,41120
+PT004759,58,Female,Stroke,Community Hospital,Private Insurance,Home,10.3,2,2.4,13,2,91.0,Critical,49112
+PT000253,95,Female,Acute Mi,Community Hospital,Medicare,Skilled Nursing Facility,3.4,2,6.2,3,2,90.9,Critical,28368
+PT000379,95,Female,Renal Failure,Community Hospital,Medicare,Home Health,11.1,1,2.1,11,3,90.9,Critical,40804
+PT000910,95,Male,Stroke,Regional Medical Center,Medicare,Ama,11.7,2,2.7,7,2,90.9,Critical,47259
+PT001958,95,Male,Hip/Knee Replacement,Mercy Medical Center,Medicaid,Home,14.4,0,3.4,8,2,90.9,Critical,54086
+PT002368,44,Female,Hip/Knee Replacement,Community Hospital,Medicare,Home,8.3,3,5.4,12,4,90.9,Critical,41676
+PT004169,81,Male,Copd,General Medical Center,Medicaid,Home Health,6.3,1,6.0,13,3,90.9,Critical,32422
+PT004740,77,Female,Sepsis,Mercy Medical Center,Self-Pay,Rehab Facility,6.8,0,7.2,8,2,90.9,Critical,41717
+PT004815,72,Female,Copd,Regional Medical Center,Self-Pay,Rehab Facility,9.6,2,3.3,13,2,90.9,Critical,56554
+PT004818,55,Female,Hip/Knee Replacement,University Health System,Medicare,Home Health,10.1,3,1.0,5,2,90.9,Critical,47450
+PT000652,83,Female,Stroke,General Medical Center,Medicare,Home Health,7.2,3,0.8,7,2,90.8,Critical,46363
+PT001461,66,Female,Copd,General Medical Center,Self-Pay,Home,9.3,1,5.5,5,2,90.8,Critical,40055
+PT002910,85,Male,Cabg,Community Hospital,Medicare,Home Health,10.4,3,3.4,12,4,90.8,Critical,55318
+PT003095,55,Male,Renal Failure,General Medical Center,Self-Pay,Home Health,11.4,3,1.2,6,2,90.8,Critical,58626
+PT003511,85,Male,Heart Failure,St. Mary'S Hospital,Medicare,Home Health,11.6,3,1.4,11,4,90.8,Critical,35849
+PT003543,80,Female,Heart Failure,Community Hospital,Self-Pay,Rehab Facility,5.8,1,5.5,8,2,90.8,Critical,36948
+PT004593,75,Male,Pneumonia,General Medical Center,Medicaid,Skilled Nursing Facility,9.6,4,0.5,8,3,90.8,Critical,39533
+PT004600,86,Female,Pneumonia,University Health System,Medicare,Skilled Nursing Facility,6.9,0,0.5,7,1,90.8,Critical,38387
+PT001616,95,Male,Cabg,Mercy Medical Center,Private Insurance,Home,6.2,3,2.0,11,3,90.7,Critical,37881
+PT002981,71,Male,Stroke,Community Hospital,Medicare,Home Health,6.3,4,1.3,5,1,90.7,Critical,47887
+PT003687,95,Female,Copd,General Medical Center,Medicare,Rehab Facility,14.5,3,0.3,9,3,90.7,Critical,41025
+PT004047,77,Male,Heart Failure,General Medical Center,Self-Pay,Home Health,8.1,0,6.2,9,3,90.7,Critical,43775
+PT000814,70,Male,Stroke,St. Mary'S Hospital,Private Insurance,Rehab Facility,9.5,2,2.6,9,1,90.6,Critical,56811
+PT000841,67,Male,Pneumonia,University Health System,Private Insurance,Home Health,10.8,2,3.7,11,2,90.6,Critical,48263
+PT001563,34,Male,Renal Failure,St. Mary'S Hospital,Self-Pay,Long-Term Care,8.3,2,4.8,6,1,90.6,Critical,46782
+PT002824,48,Female,Pneumonia,Regional Medical Center,Medicaid,Home Health,1.9,5,10.0,8,2,90.6,Critical,21770
+PT004062,71,Male,Sepsis,St. Mary'S Hospital,Medicare,Home,7.5,3,4.2,9,1,90.6,Critical,22400
+PT004773,77,Male,Stroke,St. Mary'S Hospital,Medicare,Home,11.7,1,5.0,12,4,90.6,Critical,50531
+PT004945,92,Male,Hip/Knee Replacement,St. Mary'S Hospital,Self-Pay,Home Health,8.4,2,1.7,8,2,90.6,Critical,33421
+PT000771,77,Male,Renal Failure,St. Mary'S Hospital,Private Insurance,Home,15.0,0,1.9,6,2,90.5,Critical,55221
+PT001518,76,Female,Copd,Mercy Medical Center,Private Insurance,Home,11.4,4,1.5,7,3,90.5,Critical,57341
+PT004846,75,Male,Cabg,Community Hospital,Self-Pay,Home,10.0,1,6.4,7,3,90.5,Critical,43599
+PT004976,48,Male,Diabetes,University Health System,Private Insurance,Rehab Facility,10.1,4,2.6,5,2,90.5,Critical,35631
+PT000412,52,Female,Stroke,University Health System,Medicare,Long-Term Care,9.6,6,1.2,7,2,90.4,Critical,42785
+PT002466,80,Female,Sepsis,Community Hospital,Private Insurance,Skilled Nursing Facility,6.5,2,6.4,7,2,90.4,Critical,31184
+PT003747,37,Female,Cabg,St. Mary'S Hospital,Self-Pay,Home,11.1,2,5.9,7,2,90.4,Critical,56322
+PT004301,62,Female,Renal Failure,Regional Medical Center,Medicare,Home,9.3,2,5.2,7,2,90.4,Critical,46703
+PT004304,77,Female,Cabg,General Medical Center,Medicare,Home,13.0,1,0.3,10,3,90.4,Critical,45435
+PT004952,85,Male,Cabg,Mercy Medical Center,Private Insurance,Skilled Nursing Facility,7.2,1,7.1,14,3,90.4,Critical,31619
+PT004953,79,Male,Pneumonia,Regional Medical Center,Medicare,Home,3.8,0,7.9,14,3,90.4,Critical,24697
+PT004962,53,Female,Hip/Knee Replacement,St. Mary'S Hospital,Medicare,Home Health,17.9,0,2.7,6,1,90.4,Critical,76284
+PT000517,75,Male,Acute Mi,Mercy Medical Center,Private Insurance,Home,10.4,3,1.1,6,3,90.3,Critical,43978
+PT001492,68,Female,Cabg,University Health System,Private Insurance,Home,8.9,4,6.2,5,3,90.3,Critical,51733
+PT001650,95,Female,Cabg,St. Mary'S Hospital,Medicare,Rehab Facility,14.1,3,1.1,3,3,90.3,Critical,54269
+PT002503,63,Male,Sepsis,Regional Medical Center,Private Insurance,Home,15.9,2,2.7,6,1,90.3,Critical,68604
+PT003655,70,Female,Sepsis,Mercy Medical Center,Private Insurance,Long-Term Care,15.9,1,6.7,7,2,90.3,Critical,53367
+PT004443,75,Male,Copd,General Medical Center,Medicaid,Home,5.6,3,2.2,13,3,90.3,Critical,31448
+PT004503,45,Male,Acute Mi,General Medical Center,Medicare,Home,22.0,2,3.5,7,1,90.3,Critical,89119
+PT004512,82,Female,Cabg,Community Hospital,Private Insurance,Home Health,8.9,5,1.0,5,3,90.3,Critical,49726
+PT004562,92,Male,Sepsis,Mercy Medical Center,Self-Pay,Skilled Nursing Facility,5.0,1,5.2,7,2,90.3,Critical,36521
+PT000961,76,Male,Stroke,Regional Medical Center,Medicare,Home Health,11.6,1,3.2,8,2,90.2,Critical,58553
+PT001117,95,Female,Pneumonia,Regional Medical Center,Medicare,Home,8.3,2,1.8,6,2,90.2,Critical,50867
+PT001285,56,Female,Cabg,Mercy Medical Center,Medicaid,Home Health,10.7,3,3.3,9,2,90.2,Critical,39049
+PT001808,75,Female,Pneumonia,General Medical Center,Medicare,Home Health,9.0,5,1.1,7,3,90.2,Critical,42768
+PT002631,72,Female,Stroke,General Medical Center,Medicare,Home Health,9.2,1,5.1,9,2,90.2,Critical,33760
+PT002703,95,Male,Cabg,University Health System,Private Insurance,Long-Term Care,4.4,3,0.6,12,3,90.2,Critical,34431
+PT003081,84,Female,Stroke,University Health System,Medicare,Home,5.7,4,3.8,8,2,90.2,Critical,39533
+PT003274,78,Female,Pneumonia,University Health System,Medicare,Skilled Nursing Facility,8.2,3,2.1,7,3,90.2,Critical,44548
+PT003346,90,Female,Renal Failure,Community Hospital,Private Insurance,Home,10.8,2,1.0,5,2,90.2,Critical,44597
+PT000192,79,Female,Cabg,Regional Medical Center,Medicare,Home,8.5,2,4.1,5,2,90.1,Critical,46973
+PT000625,90,Male,Heart Failure,St. Mary'S Hospital,Medicare,Home Health,12.1,0,5.4,6,3,90.1,Critical,37817
+PT001578,84,Male,Diabetes,Mercy Medical Center,Medicare,Home,3.9,1,7.1,2,2,90.1,Critical,20891
+PT002422,84,Female,Heart Failure,General Medical Center,Private Insurance,Home,10.6,3,1.4,12,4,90.1,Critical,47221
+PT002650,80,Female,Cabg,St. Mary'S Hospital,Medicare,Home Health,7.5,4,4.8,6,2,90.1,Critical,36411
+PT004064,72,Male,Sepsis,General Medical Center,Medicare,Home Health,8.5,2,5.5,2,2,90.1,Critical,43142
+PT004446,57,Female,Diabetes,Regional Medical Center,Medicaid,Home Health,7.3,3,3.1,7,1,90.1,Critical,40809
+PT004474,75,Female,Cabg,General Medical Center,Medicare,Home,19.3,0,3.2,7,2,90.1,Critical,73663
+PT001052,73,Female,Stroke,University Health System,Medicare,Rehab Facility,9.6,2,3.1,12,2,90.0,Critical,45415
+PT001384,59,Male,Hip/Knee Replacement,General Medical Center,Self-Pay,Home Health,3.8,4,8.7,6,2,90.0,Critical,31381
+PT001735,79,Female,Hip/Knee Replacement,Regional Medical Center,Medicare,Rehab Facility,6.6,1,5.5,10,3,90.0,Critical,27795
+PT002282,58,Female,Cabg,Mercy Medical Center,Private Insurance,Home,10.0,4,1.3,7,2,90.0,Critical,41395
+PT004772,54,Female,Pneumonia,St. Mary'S Hospital,Medicare,Long-Term Care,10.2,3,0.9,7,2,90.0,Critical,47204
+PT000330,76,Male,Renal Failure,General Medical Center,Medicaid,Home,10.3,2,3.9,3,2,89.9,Critical,40120
+PT000348,48,Female,Heart Failure,St. Mary'S Hospital,Medicare,Skilled Nursing Facility,5.2,5,4.8,8,1,89.9,Critical,39427
+PT001335,70,Female,Copd,St. Mary'S Hospital,Medicare,Skilled Nursing Facility,5.0,1,5.4,4,1,89.9,Critical,32587
+PT002017,64,Female,Hip/Knee Replacement,St. Mary'S Hospital,Self-Pay,Home,7.7,5,1.3,4,1,89.9,Critical,36593
+PT003066,72,Female,Copd,Community Hospital,Private Insurance,Home Health,16.7,0,0.6,6,1,89.9,Critical,55944
+PT003867,72,Male,Hip/Knee Replacement,Community Hospital,Medicaid,Rehab Facility,5.5,5,2.7,7,1,89.9,Critical,31007
+PT004156,64,Female,Stroke,Community Hospital,Medicare,Rehab Facility,8.5,4,4.3,6,2,89.9,Critical,38207
+PT004617,84,Male,Copd,University Health System,Private Insurance,Skilled Nursing Facility,6.4,2,2.1,4,1,89.9,Critical,29307
+PT004896,67,Female,Hip/Knee Replacement,Community Hospital,Private Insurance,Skilled Nursing Facility,14.6,3,1.2,11,3,89.9,Critical,62558
+PT000708,92,Male,Copd,Regional Medical Center,Private Insurance,Home,6.2,3,2.3,15,3,89.8,Critical,42417
+PT001868,83,Male,Sepsis,St. Mary'S Hospital,Medicare,Home,10.0,3,4.1,10,4,89.8,Critical,48328
+PT002836,63,Female,Diabetes,Regional Medical Center,Private Insurance,Home,10.1,4,1.8,12,3,89.8,Critical,28799
+PT003407,77,Female,Diabetes,Regional Medical Center,Medicare,Rehab Facility,8.5,1,5.5,9,3,89.8,Critical,37275
+PT003488,77,Male,Heart Failure,Mercy Medical Center,Medicare,Home,9.1,2,3.4,8,2,89.8,Critical,41154
+PT003631,76,Male,Sepsis,General Medical Center,Medicaid,Skilled Nursing Facility,7.3,3,8.8,5,3,89.8,Critical,40756
+PT003820,51,Female,Acute Mi,Community Hospital,Medicare,Skilled Nursing Facility,17.6,2,0.8,13,2,89.8,Critical,68803
+PT004480,82,Female,Diabetes,University Health System,Medicare,Skilled Nursing Facility,9.0,4,1.8,8,3,89.8,Critical,33043
+PT004921,91,Female,Pneumonia,General Medical Center,Self-Pay,Home Health,3.6,3,2.5,10,3,89.8,Critical,27738
+PT001099,80,Female,Renal Failure,Community Hospital,Medicare,Home Health,14.3,0,3.0,10,3,89.7,Critical,70120
+PT002707,70,Female,Sepsis,General Medical Center,Medicare,Rehab Facility,9.4,5,3.8,4,2,89.7,Critical,47110
+PT003141,79,Male,Sepsis,St. Mary'S Hospital,Medicare,Home,8.2,3,1.5,8,3,89.7,Critical,41994
+PT004919,86,Male,Sepsis,Community Hospital,Medicaid,Long-Term Care,11.1,1,5.8,8,3,89.7,Critical,52599
+PT000468,78,Female,Pneumonia,Mercy Medical Center,Medicaid,Home Health,8.8,2,1.8,12,3,89.6,Critical,45253
+PT000578,78,Female,Renal Failure,St. Mary'S Hospital,Private Insurance,Rehab Facility,8.7,3,1.5,8,3,89.6,Critical,34980
+PT002009,77,Male,Sepsis,Community Hospital,Private Insurance,Home,7.5,2,4.7,10,2,89.6,Critical,35031
+PT002298,87,Female,Renal Failure,Community Hospital,Medicare,Rehab Facility,8.1,0,2.1,5,2,89.6,Critical,23391
+PT002480,77,Male,Pneumonia,Mercy Medical Center,Medicare,Rehab Facility,7.8,3,4.6,9,2,89.6,Critical,46273
+PT002669,75,Female,Acute Mi,Mercy Medical Center,Medicaid,Home,15.8,1,2.3,7,2,89.6,Critical,57131
+PT003168,70,Female,Sepsis,Regional Medical Center,Medicaid,Skilled Nursing Facility,6.2,3,8.4,10,3,89.6,Critical,36146
+PT003340,93,Male,Acute Mi,General Medical Center,Self-Pay,Rehab Facility,8.8,2,3.4,9,2,89.6,Critical,42916
+PT003399,95,Female,Diabetes,St. Mary'S Hospital,Private Insurance,Home,5.8,1,5.5,4,2,89.6,Critical,32029
+PT003706,72,Male,Diabetes,General Medical Center,Medicaid,Home,13.3,4,1.2,6,2,89.6,Critical,61796
+PT000408,66,Female,Cabg,St. Mary'S Hospital,Medicaid,Home,4.4,4,6.7,16,3,89.5,Critical,33941
+PT001905,66,Female,Cabg,St. Mary'S Hospital,Medicare,Home,3.3,5,4.2,6,1,89.5,Critical,25884
+PT002250,80,Male,Renal Failure,Regional Medical Center,Medicaid,Home,15.1,2,1.1,4,2,89.5,Critical,71588
+PT002305,95,Female,Hip/Knee Replacement,St. Mary'S Hospital,Medicare,Home,4.6,3,4.9,10,3,89.5,Critical,34870
+PT002542,50,Male,Copd,St. Mary'S Hospital,Medicaid,Long-Term Care,10.2,3,3.9,5,2,89.5,Critical,50088
+PT002570,64,Male,Stroke,Regional Medical Center,Private Insurance,Home,7.5,3,2.5,8,1,89.5,Critical,39563
+PT004018,77,Female,Pneumonia,University Health System,Private Insurance,Skilled Nursing Facility,15.0,2,1.2,6,2,89.5,Critical,59846
+PT004673,74,Male,Acute Mi,University Health System,Private Insurance,Home,9.6,1,2.8,6,1,89.5,Critical,24682
+PT000084,60,Male,Acute Mi,Regional Medical Center,Private Insurance,Home,9.0,4,4.2,8,2,89.4,Critical,45173
+PT000855,87,Female,Copd,Community Hospital,Self-Pay,Home,7.8,2,2.5,10,2,89.4,Critical,40329
+PT001188,64,Male,Acute Mi,Mercy Medical Center,Medicaid,Home,7.5,3,5.8,12,3,89.4,Critical,38224
+PT001496,95,Female,Stroke,Regional Medical Center,Medicare,Home,4.8,0,2.5,17,2,89.4,Critical,22364
+PT002469,77,Male,Acute Mi,Regional Medical Center,Medicare,Home,7.0,4,4.3,10,3,89.4,Critical,42801
+PT003266,95,Male,Copd,St. Mary'S Hospital,Medicare,Long-Term Care,13.0,2,3.5,9,2,89.4,Critical,54949
+PT003548,88,Male,Sepsis,University Health System,Medicare,Home,4.7,3,2.0,9,2,89.4,Critical,35547
+PT003948,73,Male,Sepsis,University Health System,Medicare,Home Health,10.4,3,0.3,10,3,89.4,Critical,45034
+PT004556,63,Female,Sepsis,General Medical Center,Medicare,Rehab Facility,10.1,1,5.4,7,2,89.4,Critical,44742
+PT004635,58,Male,Diabetes,General Medical Center,Private Insurance,Home,5.5,3,8.1,10,3,89.4,Critical,34591
+PT000739,91,Female,Sepsis,General Medical Center,Medicaid,Home,10.6,2,2.6,6,2,89.3,Critical,37421
+PT004518,72,Male,Renal Failure,St. Mary'S Hospital,Medicare,Home,8.6,1,4.5,6,1,89.3,Critical,44535
+PT000046,57,Male,Sepsis,University Health System,Medicare,Home Health,3.1,3,5.1,9,2,89.2,Critical,23467
+PT002032,54,Female,Heart Failure,Regional Medical Center,Medicare,Skilled Nursing Facility,6.0,4,5.3,8,2,89.2,Critical,29104
+PT002701,73,Female,Stroke,Community Hospital,Medicare,Home,5.3,4,2.2,8,1,89.2,Critical,32076
+PT003512,55,Male,Hip/Knee Replacement,Regional Medical Center,Medicare,Home Health,5.9,3,1.6,4,1,89.2,Critical,33472
+PT003891,77,Male,Sepsis,Mercy Medical Center,Medicare,Home,8.1,2,0.8,9,2,89.2,Critical,35723
+PT004453,84,Male,Renal Failure,Mercy Medical Center,Medicare,Home,8.2,3,3.0,3,3,89.2,Critical,32176
+PT001878,65,Male,Cabg,St. Mary'S Hospital,Medicaid,Home,10.3,3,2.0,8,2,89.1,Critical,56690
+PT002945,72,Female,Diabetes,Regional Medical Center,Medicare,Home Health,4.4,5,1.7,5,1,89.1,Critical,31252
+PT003204,85,Male,Diabetes,Regional Medical Center,Medicare,Skilled Nursing Facility,6.5,2,6.0,9,2,89.1,Critical,44754
+PT003450,62,Male,Copd,St. Mary'S Hospital,Private Insurance,Home,4.8,3,6.7,10,3,89.1,Critical,32274
+PT003574,70,Male,Stroke,Mercy Medical Center,Private Insurance,Home,10.3,1,2.3,6,1,89.1,Critical,39339
+PT004045,81,Female,Renal Failure,Community Hospital,Private Insurance,Home,5.5,1,0.9,10,2,89.1,Critical,30770
+PT004231,46,Female,Renal Failure,General Medical Center,Medicare,Home,11.2,1,8.2,5,2,89.1,Critical,51301
+PT000415,72,Female,Heart Failure,Mercy Medical Center,Medicare,Home Health,11.5,1,5.5,8,2,89.0,Critical,36018
+PT001236,90,Male,Copd,Community Hospital,Medicare,Skilled Nursing Facility,6.5,3,0.3,6,2,89.0,Critical,36085
+PT002058,80,Female,Diabetes,General Medical Center,Private Insurance,Home,6.3,2,6.4,6,2,89.0,Critical,31859
+PT002758,57,Male,Cabg,Community Hospital,Medicare,Home Health,8.0,3,6.0,7,3,89.0,Critical,32891
+PT002847,59,Male,Sepsis,Mercy Medical Center,Medicare,Home,12.1,2,3.1,12,2,89.0,Critical,49009
+PT004358,63,Male,Sepsis,University Health System,Medicare,Home,9.5,2,3.4,4,1,89.0,Critical,39641
+PT004852,95,Female,Diabetes,University Health System,Private Insurance,Home,8.4,2,3.3,7,2,89.0,Critical,44691
+PT000093,58,Male,Stroke,Regional Medical Center,Self-Pay,Rehab Facility,2.8,3,5.1,11,3,88.9,Critical,9011
+PT001084,95,Female,Cabg,St. Mary'S Hospital,Medicare,Rehab Facility,4.6,2,5.4,4,2,88.9,Critical,25350
+PT002007,68,Male,Sepsis,St. Mary'S Hospital,Medicaid,Home Health,10.8,1,4.2,14,2,88.9,Critical,46863
+PT002752,90,Male,Stroke,General Medical Center,Medicare,Home,1.7,1,6.3,3,2,88.9,Critical,29384
+PT002823,67,Male,Heart Failure,University Health System,Medicaid,Home,8.2,3,2.4,8,2,88.9,Critical,36164
+PT003382,84,Male,Pneumonia,University Health System,Medicaid,Home,10.3,2,2.3,10,3,88.9,Critical,51308
+PT004935,61,Male,Copd,General Medical Center,Medicaid,Skilled Nursing Facility,6.9,3,9.6,11,3,88.9,Critical,43433
+PT000547,76,Male,Acute Mi,Community Hospital,Medicare,Home,14.8,0,1.6,7,2,88.8,Critical,62350
+PT002035,82,Female,Hip/Knee Replacement,St. Mary'S Hospital,Medicaid,Home,15.0,3,5.8,7,4,88.8,Critical,62708
+PT002083,47,Female,Stroke,St. Mary'S Hospital,Medicare,Home,5.9,3,0.9,6,1,88.8,Critical,30335
+PT002576,52,Male,Heart Failure,Community Hospital,Private Insurance,Home Health,11.0,3,1.8,12,3,88.8,Critical,49228
+PT002585,83,Male,Sepsis,Mercy Medical Center,Medicare,Home,11.9,4,0.5,6,3,88.8,Critical,55231
+PT003013,49,Female,Acute Mi,University Health System,Medicare,Skilled Nursing Facility,10.3,3,4.0,11,3,88.8,Critical,60595
+PT004435,60,Male,Diabetes,University Health System,Medicare,Skilled Nursing Facility,11.2,4,2.6,6,2,88.8,Critical,52518
+PT004730,68,Male,Heart Failure,Regional Medical Center,Self-Pay,Home,11.2,3,0.4,12,3,88.8,Critical,51154
+PT004770,79,Female,Sepsis,General Medical Center,Medicare,Home,5.0,5,1.9,5,2,88.8,Critical,31533
+PT004782,72,Female,Renal Failure,Community Hospital,Medicare,Home,8.9,1,3.3,10,2,88.8,Critical,46287
+PT000456,56,Male,Pneumonia,University Health System,Private Insurance,Skilled Nursing Facility,11.7,3,4.7,6,2,88.7,Critical,42986
+PT001059,75,Female,Hip/Knee Replacement,Community Hospital,Medicaid,Home,5.9,3,2.5,13,3,88.7,Critical,32013
+PT002366,89,Female,Sepsis,University Health System,Medicaid,Home,4.8,3,6.9,12,4,88.7,Critical,37028
+PT002428,67,Female,Renal Failure,Mercy Medical Center,Medicaid,Home,13.3,3,2.0,6,2,88.7,Critical,47482
+PT002602,76,Female,Renal Failure,St. Mary'S Hospital,Medicaid,Long-Term Care,8.2,3,3.5,9,3,88.7,Critical,41929
+PT002791,76,Male,Pneumonia,General Medical Center,Medicare,Home,9.0,0,4.1,5,2,88.7,Critical,42455
+PT003493,74,Male,Renal Failure,St. Mary'S Hospital,Medicare,Home Health,9.2,4,1.8,8,2,88.7,Critical,44240
+PT004066,59,Female,Pneumonia,University Health System,Private Insurance,Skilled Nursing Facility,8.4,1,1.6,8,1,88.7,Critical,44942
+PT004276,66,Female,Diabetes,Mercy Medical Center,Medicare,Home,16.5,1,1.4,13,2,88.7,Critical,62227
+PT004719,78,Female,Heart Failure,General Medical Center,Medicare,Home,6.3,1,3.6,7,1,88.7,Critical,33922
+PT000189,56,Female,Hip/Knee Replacement,General Medical Center,Medicare,Home,3.6,4,0.8,12,2,88.6,Critical,25029
+PT000303,78,Female,Sepsis,Community Hospital,Medicare,Home,5.2,3,3.5,5,2,88.6,Critical,35258
+PT000338,63,Female,Cabg,Community Hospital,Self-Pay,Home,6.1,4,5.3,7,2,88.6,Critical,38378
+PT000593,74,Female,Hip/Knee Replacement,Community Hospital,Medicare,Home Health,9.0,2,3.5,11,2,88.6,Critical,37083
+PT001469,51,Male,Stroke,University Health System,Medicare,Home Health,11.3,3,3.1,9,2,88.6,Critical,61783
+PT001997,67,Female,Copd,Regional Medical Center,Medicare,Home Health,8.2,5,1.7,7,2,88.6,Critical,51276
+PT002056,56,Female,Sepsis,Mercy Medical Center,Self-Pay,Home,6.2,1,4.8,5,0,88.6,Critical,37393
+PT002232,79,Male,Stroke,Mercy Medical Center,Private Insurance,Skilled Nursing Facility,4.8,3,2.3,10,3,88.6,Critical,39433
+PT002310,80,Male,Renal Failure,Mercy Medical Center,Medicare,Home,5.2,1,4.2,9,1,88.6,Critical,13455
+PT003150,55,Male,Cabg,University Health System,Medicare,Home,15.5,2,2.9,6,1,88.6,Critical,62604
+PT004008,59,Male,Pneumonia,General Medical Center,Medicare,Home,10.1,3,1.4,9,2,88.6,Critical,53058
+PT004432,36,Female,Cabg,St. Mary'S Hospital,Medicare,Home,15.2,2,8.0,13,3,88.6,Critical,57239
+PT002751,92,Female,Hip/Knee Replacement,General Medical Center,Medicare,Home,4.0,0,5.4,17,3,88.5,Critical,36210
+PT000218,64,Female,Pneumonia,General Medical Center,Private Insurance,Home,13.0,2,1.7,4,1,88.4,Critical,68391
+PT001875,86,Male,Diabetes,General Medical Center,Private Insurance,Home,8.2,3,1.6,5,3,88.4,Critical,33790
+PT002101,73,Female,Heart Failure,Regional Medical Center,Medicare,Skilled Nursing Facility,10.7,2,3.5,5,1,88.4,Critical,47012
+PT003339,75,Male,Pneumonia,St. Mary'S Hospital,Private Insurance,Home,11.7,2,2.1,8,2,88.4,Critical,66004
+PT001163,48,Female,Copd,Regional Medical Center,Medicare,Long-Term Care,8.9,3,2.5,4,2,88.3,Critical,38740
+PT001309,83,Male,Renal Failure,Regional Medical Center,Medicare,Rehab Facility,9.7,1,6.2,10,4,88.3,Critical,38264
+PT002142,68,Female,Acute Mi,University Health System,Medicaid,Skilled Nursing Facility,2.6,1,5.3,12,2,88.3,Critical,28197
+PT002320,52,Female,Acute Mi,Regional Medical Center,Medicare,Home,12.9,3,1.4,6,2,88.3,Critical,52587
+PT002740,79,Male,Acute Mi,Regional Medical Center,Medicare,Home,7.5,0,5.7,6,2,88.3,Critical,46110
+PT003301,72,Female,Heart Failure,St. Mary'S Hospital,Medicare,Home,9.3,2,2.4,6,1,88.3,Critical,24920
+PT000966,88,Female,Diabetes,Regional Medical Center,Medicare,Home Health,9.9,0,3.8,9,2,88.2,Critical,51715
+PT001499,82,Male,Diabetes,University Health System,Medicare,Home Health,6.8,1,1.5,9,1,88.2,Critical,32955
+PT002512,75,Male,Copd,University Health System,Medicaid,Home,8.6,1,4.2,9,2,88.2,Critical,44907
+PT002974,95,Male,Copd,University Health System,Medicare,Home,4.6,3,2.2,5,2,88.2,Critical,37793
+PT003062,63,Female,Copd,Community Hospital,Medicare,Home Health,6.6,4,7.8,5,2,88.2,Critical,42337
+PT003283,37,Male,Acute Mi,Regional Medical Center,Medicare,Home,9.7,3,7.9,10,4,88.2,Critical,50468
+PT004883,56,Male,Cabg,University Health System,Medicare,Home Health,6.1,3,8.2,7,2,88.2,Critical,29336
+PT000139,79,Female,Cabg,St. Mary'S Hospital,Medicaid,Home,8.7,2,6.5,10,4,88.1,Critical,45011
+PT000381,56,Female,Hip/Knee Replacement,University Health System,Medicare,Home,20.4,1,2.6,9,1,88.1,Critical,77509
+PT000995,53,Female,Acute Mi,Community Hospital,Medicare,Home Health,9.0,3,5.5,9,3,88.1,Critical,46723
+PT001318,63,Female,Pneumonia,Community Hospital,Medicare,Home,7.1,1,6.1,9,1,88.1,Critical,35286
+PT002179,95,Male,Stroke,General Medical Center,Medicaid,Rehab Facility,6.9,3,1.1,7,2,88.1,Critical,48216
+PT002455,77,Male,Acute Mi,Mercy Medical Center,Medicare,Home Health,12.2,2,3.5,6,2,88.1,Critical,58144
+PT000313,79,Male,Renal Failure,Mercy Medical Center,Medicare,Home Health,8.0,0,1.5,13,3,88.0,Critical,39535
+PT000407,53,Female,Pneumonia,University Health System,Self-Pay,Skilled Nursing Facility,13.2,2,0.8,5,1,88.0,Critical,42974
+PT000639,49,Female,Diabetes,General Medical Center,Private Insurance,Skilled Nursing Facility,14.2,1,6.6,7,2,88.0,Critical,57286
+PT001466,76,Female,Copd,St. Mary'S Hospital,Private Insurance,Home Health,7.4,1,2.9,6,1,88.0,Critical,34993
+PT002141,70,Male,Stroke,Community Hospital,Private Insurance,Home,4.9,3,4.0,8,1,88.0,Critical,32744
+PT003698,72,Male,Renal Failure,University Health System,Self-Pay,Skilled Nursing Facility,12.2,1,3.0,14,2,88.0,Critical,54736
+PT004120,53,Female,Hip/Knee Replacement,St. Mary'S Hospital,Medicare,Home,3.1,3,1.6,12,2,88.0,Critical,24404
+PT004495,79,Female,Cabg,Mercy Medical Center,Self-Pay,Long-Term Care,11.0,3,2.3,9,3,88.0,Critical,56845
+PT000201,73,Female,Cabg,Mercy Medical Center,Medicare,Home Health,6.3,3,5.3,3,2,87.9,Critical,29406
+PT001225,65,Male,Copd,Mercy Medical Center,Medicare,Home,10.3,2,1.8,5,1,87.9,Critical,50807
+PT003322,55,Female,Copd,General Medical Center,Medicare,Home,9.2,2,4.0,6,1,87.9,Critical,41666
+PT004059,81,Female,Sepsis,Community Hospital,Self-Pay,Skilled Nursing Facility,7.7,4,1.6,8,2,87.9,Critical,46759
+PT002706,82,Female,Diabetes,St. Mary'S Hospital,Private Insurance,Skilled Nursing Facility,7.0,1,2.7,12,2,87.8,Critical,36014
+PT002923,65,Male,Diabetes,St. Mary'S Hospital,Medicare,Home Health,14.1,4,0.7,3,2,87.8,Critical,61208
+PT003277,84,Male,Hip/Knee Replacement,Community Hospital,Private Insurance,Long-Term Care,8.1,3,2.5,10,4,87.8,Critical,30166
+PT003528,95,Female,Acute Mi,Community Hospital,Private Insurance,Rehab Facility,5.1,2,2.3,13,2,87.8,Critical,19494
+PT003532,94,Male,Cabg,Community Hospital,Medicare,Rehab Facility,7.6,2,3.4,8,1,87.8,Critical,38355
+PT004280,73,Female,Copd,University Health System,Self-Pay,Rehab Facility,14.6,2,3.0,5,1,87.8,Critical,70972
+PT000124,48,Female,Stroke,Mercy Medical Center,Medicaid,Rehab Facility,4.2,3,5.2,5,2,87.7,Critical,30732
+PT000317,77,Female,Pneumonia,Regional Medical Center,Medicaid,Skilled Nursing Facility,8.6,3,1.3,8,3,87.7,Critical,38715
+PT000563,80,Male,Renal Failure,Community Hospital,Self-Pay,Skilled Nursing Facility,6.4,2,4.4,6,1,87.7,Critical,36803
+PT002496,79,Male,Cabg,Regional Medical Center,Medicare,Home,9.4,2,2.4,5,2,87.7,Critical,49419
+PT003664,72,Male,Cabg,University Health System,Private Insurance,Long-Term Care,12.0,1,6.0,4,2,87.7,Critical,52900
+PT003877,81,Male,Heart Failure,St. Mary'S Hospital,Private Insurance,Home,8.0,1,1.4,8,2,87.7,Critical,39682
+PT003918,75,Male,Renal Failure,Community Hospital,Medicare,Home,8.1,3,2.4,16,4,87.7,Critical,42343
+PT004712,76,Female,Stroke,General Medical Center,Medicare,Home,8.6,2,1.0,11,3,87.7,Critical,36805
+PT001214,80,Male,Acute Mi,Mercy Medical Center,Medicare,Home,8.2,2,3.9,6,2,87.6,Critical,46792
+PT001722,64,Male,Copd,University Health System,Medicare,Home,8.7,3,2.2,5,2,87.6,Critical,42186
+PT002097,77,Female,Stroke,St. Mary'S Hospital,Medicare,Home,5.9,3,1.0,10,3,87.6,Critical,31055
+PT003146,74,Female,Stroke,University Health System,Medicare,Skilled Nursing Facility,10.8,1,4.2,7,1,87.6,Critical,49603
+PT003435,95,Female,Sepsis,General Medical Center,Medicare,Rehab Facility,4.0,1,5.7,5,2,87.6,Critical,26125
+PT004229,71,Male,Heart Failure,General Medical Center,Private Insurance,Rehab Facility,12.0,0,4.1,8,1,87.6,Critical,55010
+PT004529,67,Male,Cabg,Regional Medical Center,Medicare,Rehab Facility,4.1,3,7.5,2,2,87.6,Critical,29170
+PT000097,72,Male,Renal Failure,St. Mary'S Hospital,Medicare,Home Health,5.7,6,0.8,5,1,87.5,Critical,29371
+PT000481,66,Male,Stroke,St. Mary'S Hospital,Private Insurance,Skilled Nursing Facility,10.7,2,3.4,7,1,87.5,Critical,38926
+PT000754,82,Male,Acute Mi,Mercy Medical Center,Private Insurance,Home Health,10.8,2,1.6,5,2,87.5,Critical,56291
+PT002284,54,Female,Acute Mi,University Health System,Medicare,Home,2.1,3,5.4,10,3,87.5,Critical,20965
+PT004456,72,Male,Acute Mi,Community Hospital,Private Insurance,Home,13.9,3,1.0,4,2,87.5,Critical,52221
+PT004870,60,Male,Stroke,General Medical Center,Medicare,Home,9.7,2,3.2,11,2,87.5,Critical,35643
+PT001345,81,Female,Renal Failure,University Health System,Medicaid,Home,5.8,4,0.8,9,2,87.4,Critical,40743
+PT001789,72,Female,Acute Mi,Mercy Medical Center,Medicare,Rehab Facility,9.2,1,2.7,12,2,87.4,Critical,44297
+PT002636,83,Male,Copd,Mercy Medical Center,Medicaid,Long-Term Care,7.1,2,2.9,9,1,87.4,Critical,43248
+PT003590,62,Female,Hip/Knee Replacement,Mercy Medical Center,Medicare,Home,14.0,4,0.6,11,3,87.4,Critical,53981
+PT003701,82,Male,Sepsis,Community Hospital,Private Insurance,Home,14.8,2,0.7,5,2,87.4,Critical,68795
+PT004626,85,Male,Cabg,Community Hospital,Medicare,Home,12.9,2,2.4,4,2,87.4,Critical,54746
+PT000259,74,Male,Copd,University Health System,Private Insurance,Home Health,13.1,1,3.0,7,1,87.3,Critical,49673
+PT000366,62,Female,Stroke,Mercy Medical Center,Medicaid,Rehab Facility,11.7,1,4.8,9,1,87.3,Critical,48657
+PT000820,82,Female,Pneumonia,Community Hospital,Medicaid,Home,4.3,5,3.3,7,2,87.3,Critical,37591
+PT000883,61,Male,Renal Failure,Community Hospital,Private Insurance,Home,4.8,3,4.5,6,1,87.3,Critical,30175
+PT000970,47,Female,Sepsis,University Health System,Medicare,Home,13.5,2,7.7,12,3,87.3,Critical,54134
+PT001278,73,Female,Renal Failure,St. Mary'S Hospital,Private Insurance,Home,9.6,2,2.2,6,1,87.3,Critical,52694
+PT002010,81,Male,Pneumonia,General Medical Center,Medicare,Home Health,3.9,3,1.7,9,2,87.3,Critical,28844
+PT002973,48,Female,Heart Failure,Regional Medical Center,Medicare,Home Health,10.0,4,1.0,7,2,87.3,Critical,50005
+PT004658,54,Male,Diabetes,St. Mary'S Hospital,Medicare,Rehab Facility,8.3,7,2.3,6,2,87.3,Critical,39132
+PT001023,67,Female,Pneumonia,Community Hospital,Medicare,Home,7.2,3,4.7,9,1,87.2,Critical,34902
+PT001120,82,Female,Heart Failure,Regional Medical Center,Medicare,Skilled Nursing Facility,11.2,0,2.7,8,2,87.2,Critical,58896
+PT001328,65,Male,Acute Mi,Community Hospital,Medicaid,Skilled Nursing Facility,11.3,4,4.1,10,3,87.2,Critical,34747
+PT001857,87,Male,Acute Mi,Mercy Medical Center,Medicare,Home Health,2.4,2,2.0,11,2,87.2,Critical,24459
+PT004207,74,Female,Copd,St. Mary'S Hospital,Private Insurance,Home Health,12.9,0,4.0,10,2,87.2,Critical,52113
+PT004747,69,Female,Stroke,Community Hospital,Medicaid,Ama,17.9,1,0.3,10,2,87.2,Critical,73119
+PT000684,74,Male,Pneumonia,University Health System,Medicare,Home,4.7,5,0.4,7,1,87.1,Critical,33738
+PT000919,61,Male,Stroke,Mercy Medical Center,Medicare,Home Health,3.4,3,5.0,8,2,87.1,Critical,22573
+PT002721,95,Female,Acute Mi,Regional Medical Center,Medicaid,Home,8.2,2,2.1,7,2,87.1,Critical,36958
+PT003353,73,Female,Diabetes,University Health System,Private Insurance,Home,6.3,4,6.3,9,2,87.1,Critical,14491
+PT003809,77,Female,Hip/Knee Replacement,Regional Medical Center,Private Insurance,Home,1.6,2,6.6,4,2,87.1,Critical,20064
+PT003847,83,Male,Diabetes,General Medical Center,Medicaid,Skilled Nursing Facility,7.0,1,5.2,6,2,87.1,Critical,40017
+PT000170,57,Male,Heart Failure,University Health System,Medicare,Rehab Facility,9.9,2,2.5,8,1,87.0,Critical,46377
+PT001011,86,Female,Diabetes,Community Hospital,Medicare,Home,4.6,3,4.2,8,2,87.0,Critical,29324
+PT004308,78,Male,Stroke,Mercy Medical Center,Medicaid,Home Health,12.5,3,1.9,8,3,87.0,Critical,49824
+PT000294,79,Female,Sepsis,Regional Medical Center,Medicare,Home Health,8.0,2,6.2,9,3,86.9,Critical,44811
+PT000388,94,Female,Heart Failure,Regional Medical Center,Medicare,Home,2.5,4,0.4,8,2,86.9,Critical,23292
+PT000616,69,Male,Pneumonia,Community Hospital,Medicare,Home,9.8,3,2.6,9,2,86.9,Critical,52258
+PT001103,95,Male,Acute Mi,Mercy Medical Center,Medicare,Home,12.3,1,2.5,8,2,86.9,Critical,55359
+PT001331,89,Female,Diabetes,University Health System,Medicare,Home,4.6,2,5.8,3,2,86.9,Critical,37301
