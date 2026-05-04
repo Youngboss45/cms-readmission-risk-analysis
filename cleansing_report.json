@@ -1,0 +1,120 @@
+{
+  "run_timestamp": "2026-04-27T19:20:38.282619",
+  "source_file": "data/raw/cms_patients_raw.csv",
+  "output_file": "data/clean/cms_patients_clean.csv",
+  "source_rows": 5000,
+  "output_rows": 5000,
+  "rules_applied": 15,
+  "records_touched": 57,
+  "clean_records": 4993,
+  "flagged_records": 7,
+  "remaining_nulls": 175,
+  "output_columns": 36,
+  "rules": [
+    {
+      "rule_id": "R01",
+      "description": "Duplicate patient_id records",
+      "severity": "CRITICAL",
+      "records_affected": 0,
+      "action": "Drop duplicates, keep first occurrence"
+    },
+    {
+      "rule_id": "R02",
+      "description": "Age outside valid range [18\u201395]",
+      "severity": "HIGH",
+      "records_affected": 25,
+      "action": "Impute with diagnosis-group median"
+    },
+    {
+      "rule_id": "R03",
+      "description": "LOS outside valid range [1\u201330 days]",
+      "severity": "HIGH",
+      "records_affected": 0,
+      "action": "Cap at bounds; flag with los_capped_flag"
+    },
+    {
+      "rule_id": "R04",
+      "description": "LOS field vs computed date diff disagree by >1 day",
+      "severity": "MEDIUM",
+      "records_affected": 0,
+      "action": "Recompute LOS from admit/discharge dates"
+    },
+    {
+      "rule_id": "R05",
+      "description": "BMI outside plausible range [10\u201360]",
+      "severity": "HIGH",
+      "records_affected": 0,
+      "action": "Impute with diagnosis-group median"
+    },
+    {
+      "rule_id": "R06",
+      "description": "Total cost <= $0 (invalid)",
+      "severity": "HIGH",
+      "records_affected": 25,
+      "action": "Impute with diagnosis-group median cost"
+    },
+    {
+      "rule_id": "R07",
+      "description": "Total cost extreme outlier (> $102,181, 3\u00d7IQR)",
+      "severity": "MEDIUM",
+      "records_affected": 1,
+      "action": "Flag with cost_outlier_flag; retain for clinical validity"
+    },
+    {
+      "rule_id": "R08",
+      "description": "LOS extreme outlier (> 20 days)",
+      "severity": "LOW",
+      "records_affected": 7,
+      "action": "Flag with los_outlier_flag; clinically plausible, retain"
+    },
+    {
+      "rule_id": "R09",
+      "description": "risk_score_0_100 check (column absent in raw data)",
+      "severity": "INFO",
+      "records_affected": 0,
+      "action": "Skipped \u2014 column added in modelling step"
+    },
+    {
+      "rule_id": "R10",
+      "description": "Remaining null values after all imputation",
+      "severity": "INFO",
+      "records_affected": 175,
+      "action": "Manual review required"
+    },
+    {
+      "rule_id": "R11",
+      "description": "Whitespace / case inconsistencies in categorical fields",
+      "severity": "LOW",
+      "records_affected": 3398,
+      "action": "Strip whitespace, apply title case"
+    },
+    {
+      "rule_id": "R12",
+      "description": "Standardise date format to ISO 8601 (YYYY-MM-DD)",
+      "severity": "INFO",
+      "records_affected": 5000,
+      "action": "Applied to admit_date and discharge_date"
+    },
+    {
+      "rule_id": "R13",
+      "description": "Re-derive temporal features from corrected admit_date",
+      "severity": "INFO",
+      "records_affected": 5000,
+      "action": "admit_year/month/quarter/dow/week refreshed"
+    },
+    {
+      "rule_id": "R14",
+      "description": "Re-derive binary clinical flags from cleaned values",
+      "severity": "INFO",
+      "records_affected": 5000,
+      "action": "is_elderly, is_high_comorbidity, is_polypharmacy, is_frequent_flyer, is_long_stay"
+    },
+    {
+      "rule_id": "R15",
+      "description": "Add DQ audit columns",
+      "severity": "INFO",
+      "records_affected": 5000,
+      "action": "dq_flag_count, dq_record_status added"
+    }
+  ]
+}

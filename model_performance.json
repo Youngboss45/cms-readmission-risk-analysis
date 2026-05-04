@@ -1,0 +1,44 @@
+{
+  "Logistic Regression": {
+    "AUC_ROC": 0.6506,
+    "PR_AUC": 0.7722,
+    "Brier_Score": 0.2151,
+    "CV_AUC_5fold": 0.6797,
+    "Sensitivity": 0.8771,
+    "Specificity": 0.2717,
+    "PPV": 0.6845,
+    "NPV": 0.5511,
+    "TP": 564,
+    "FP": 260,
+    "TN": 97,
+    "FN": 79
+  },
+  "Random Forest": {
+    "AUC_ROC": 0.6474,
+    "PR_AUC": 0.7649,
+    "Brier_Score": 0.216,
+    "CV_AUC_5fold": 0.6692,
+    "Sensitivity": 0.9362,
+    "Specificity": 0.1204,
+    "PPV": 0.6572,
+    "NPV": 0.5119,
+    "TP": 602,
+    "FP": 314,
+    "TN": 43,
+    "FN": 41
+  },
+  "Gradient Boosting": {
+    "AUC_ROC": 0.6274,
+    "PR_AUC": 0.7418,
+    "Brier_Score": 0.2234,
+    "CV_AUC_5fold": 0.648,
+    "Sensitivity": 0.8212,
+    "Specificity": 0.3501,
+    "PPV": 0.6947,
+    "NPV": 0.5208,
+    "TP": 528,
+    "FP": 232,
+    "TN": 125,
+    "FN": 115
+  }
+}
